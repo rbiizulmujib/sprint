@@ -18,20 +18,6 @@ const Index: React.FC = () => {
         <VisionMissionSection />
         <ApproachSection />
         <TeamSection />
-
-        <section className="py-16 px-20 max-md:px-10 max-sm:px-5">
-          <h2 className="text-[32px] font-bold text-black text-center mb-10">
-            Contact Us
-          </h2>
-          <div className="flex gap-10 max-md:flex-col">
-            <div className="flex-1">
-              <ContactForm />
-            </div>
-            {/* <div className="w-80 max-md:w-full">
-              <NewsletterSignup />
-            </div> */}
-          </div>
-        </section>
       </main>
 
       <Footer />
