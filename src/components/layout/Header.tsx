@@ -1,25 +1,28 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
     <header className="flex justify-between items-center h-32 bg-[#C1E5D2] px-20 py-0 border-b-[#2F6D4B] border-b border-solid max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0">
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9077f13e0384cbea0a791187dfb91cbaecc5ac44"
-        className="w-[191px] h-[190px]"
-        alt="Sprout and Sprint logo"
-      />
+      <Link to="/">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/9077f13e0384cbea0a791187dfb91cbaecc5ac44"
+          className="w-[191px] h-[190px]"
+          alt="Sprout and Sprint logo"
+        />
+      </Link>
       <nav className="flex items-center gap-[75px] max-sm:hidden">
-        <Link to="/" className="text-base text-black px-5 py-[5px] rounded-lg">
+        <Link to="/" className="text-base text-black px-5 py-[5px] rounded-lg hover:bg-[#9fd3b6]">
           Home
         </Link>
-        <Link to="/" className="text-base text-black px-5 py-[5px] rounded-lg">
+        <Link to="/" className="text-base text-black px-5 py-[5px] rounded-lg hover:bg-[#9fd3b6]">
           About Us
         </Link>
-        <Link to="/" className="text-base text-black px-5 py-[5px] rounded-lg">
+        <Link to="/" className="text-base text-black px-5 py-[5px] rounded-lg hover:bg-[#9fd3b6]">
           Our Programs
         </Link>
-        <Link to="/" className="text-base text-black px-5 py-[5px] rounded-lg">
+        <Link to="/contact" className="text-base text-black px-5 py-2 rounded-lg bg-[#397B57] text-white hover:bg-[#2F6D4B]">
           Contact Us
         </Link>
       </nav>
