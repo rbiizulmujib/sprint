@@ -27,9 +27,9 @@ const Index: React.FC = () => {
             <div className="flex-1">
               <ContactForm />
             </div>
-            <div className="w-80 max-md:w-full">
+            {/* <div className="w-80 max-md:w-full">
               <NewsletterSignup />
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
