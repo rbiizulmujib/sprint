@@ -36,14 +36,14 @@ const Index: React.FC = () => {
             >
               Visit Contact Page
             </Link>
-            <div className="flex gap-10 max-md:flex-col w-full max-w-5xl">
+            {/* <div className="flex gap-10 max-md:flex-col w-full max-w-5xl">
               <div className="flex-1">
                 <ContactForm />
               </div>
               <div className="w-80 max-md:w-full">
                 <NewsletterSignup />
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
